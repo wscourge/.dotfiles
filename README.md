@@ -64,7 +64,21 @@ Copy `.vimrc`.
 
 ## Terminator
 
-TODO
+Prerequisites:
+
+```
+sudo add-apt-repository ppa:gnome-terminator
+sudo apt-get update
+sudo apt-get install terminator
+```
+
+restart terminal. Then, copy the configuration file:
+
+```
+cp ./terminator/config ~/.config/terminator/config
+```
+
+TODO: window modes 
 
 ## System UI
 

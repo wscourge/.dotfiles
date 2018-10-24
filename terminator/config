@@ -1,0 +1,218 @@
+[global_config]
+  always_split_with_profile = True
+  enabled_plugins = InactivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.6
+  suppress_multiple_term_dialog = True
+  title_font = Ubuntu Mono 12
+  title_inactive_bg_color = "#515453"
+  title_receive_bg_color = "#7a7813"
+  title_transmit_bg_color = "#31442f"
+  title_transmit_fg_color = "#000000"
+  title_use_system_font = False
+[keybindings]
+  copy = <Primary><Shift>c
+  move_tab_left = <Primary>a
+  move_tab_right = <Primary>d
+  new_tab = <Primary>t
+  paste = <Primary><Shift>v
+  switch_to_tab_1 = <Primary>1
+  switch_to_tab_10 = <Primary>2
+  switch_to_tab_2 = <Primary>3
+  switch_to_tab_3 = <Primary>4
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = fefa42df-e812-45c0-abc0-0539210f6ee8
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 2323:799
+      size = 957, 247
+      title = wscourge@wscourge: ~/Workspace
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = fefa42df-e812-45c0-abc0-0539210f6ee8
+  [[4x4]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 0e0acc49-ecb8-49b6-8de6-6df86085855a
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1366:0
+      size = 1920, 1080
+      title = wscourge@wscourge: ~/Workspace
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 537
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 0e0acc49-ecb8-49b6-8de6-6df86085855a
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 3814822b-f5e1-40c0-914e-90692f55d502
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = ba748f0b-c40b-4dcc-8c8b-30af3d24977c
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = fefa42df-e812-45c0-abc0-0539210f6ee8
+  [[db]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 0e0acc49-ecb8-49b6-8de6-6df86085855a
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1366:0
+      size = 1920, 1080
+      title = wscourge@wscourge: ~/Workspace
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 537
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 0e0acc49-ecb8-49b6-8de6-6df86085855a
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 3814822b-f5e1-40c0-914e-90692f55d502
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = ba748f0b-c40b-4dcc-8c8b-30af3d24977c
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = fefa42df-e812-45c0-abc0-0539210f6ee8
+  [[ssh]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 0e0acc49-ecb8-49b6-8de6-6df86085855a
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1366:0
+      size = 1920, 1080
+      title = wscourge@wscourge: ~/Workspace
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 537
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 0e0acc49-ecb8-49b6-8de6-6df86085855a
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 3814822b-f5e1-40c0-914e-90692f55d502
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = ba748f0b-c40b-4dcc-8c8b-30af3d24977c
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = fefa42df-e812-45c0-abc0-0539210f6ee8
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#252525"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#82aa4c"
+    font = Monospace 13
+    foreground_color = "#a7d235"
+    palette = "#252525:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[solarized]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
