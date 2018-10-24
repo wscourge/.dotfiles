@@ -59,8 +59,28 @@ Copy `.vimrc`.
 
 ## Git
 
-- git flow (hubflow?)
-- tig
+Prerequisites:
+
+Git and its configuration
+
+```
+sudo apt-get install git-core
+cp ./git/.gitconfig
+```
+
+Git flow
+
+```
+sudo apt-get install gitflow
+
+```
+
+Tig
+
+```
+sudo apt-get install tig
+```
+TODO: consider hubflow
 
 ## Terminator
 

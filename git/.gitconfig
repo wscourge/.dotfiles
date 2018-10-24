@@ -1,0 +1,12 @@
+[user]
+  email = wscourge@gmail.com
+  name = Wiktor Plaga
+[push]
+  default = simple
+[core]
+  editor = vim
+[branch]
+  autosetuprebase = always
+[github]
+  user = christian-oudard
+  
