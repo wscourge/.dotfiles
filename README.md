@@ -55,7 +55,7 @@ TODO
 
 ## Vim
 
-TODO
+Copy `.vimrc`.
 
 ## Git
 
