@@ -34,15 +34,29 @@ cd ~/.solarized
 
 Copy `.zshrc`.
 
-TODO
-
 ## Sublime
 
-TODO
+Download and install [Sublime Text 3](https://www.sublimetext.com/). Then, `Ctrl + Shift + P` to install following packages:
 
-- packages
-- preferences (+ package preferences)
-- bindings
+- A File Icon
+- Better Coffescript
+- Boxy Theme
+- BracketHighlighter
+- Colorsublime
+- Console Wrap
+- EditorConfig
+- ERB Autocomplete (?)
+- Git
+- GitGutter
+- Package Control
+- RuboCop
+- SublimeLinter
+- Theme - Monokai Pro
+- Pretty JSON
+
+Press `Ctrl + Shift + P`, type 'Colorsublime: Install Theme', then type 'Monokai' and press `Enter`.
+
+Copy and paste User preferences and Key bindings.
 
 ## Ruby
 

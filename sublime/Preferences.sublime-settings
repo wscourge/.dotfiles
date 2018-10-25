@@ -1,0 +1,34 @@
+{
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/Colorsublime - Themes/Monokai.tmTheme",
+  "detect_indentation": false,
+  "drag_text": false,
+  "font_face": "Menlo-Regular",
+  "font_size": 12,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Coffee2Js"
+  ],
+  "match_brackets_content": false,
+  "ruler":
+  [
+    120,
+    120.1
+  ],
+  "scroll_past_end": false,
+  "show_encoding": false,
+  "tab_size": 2,
+  "theme": "Boxy Monokai.sublime-theme",
+  "theme_grid_border_size_md": true,
+  "theme_icons_materialized": true,
+  "theme_sidebar_disclosure": true,
+  "theme_sidebar_font_lg": true,
+  "theme_sidebar_indent_xl": true,
+  "theme_sidebar_size_md": true,
+  "theme_statusbar_size_lg": true,
+  "theme_tab_size_lg": true,
+  "translate_tabs_to_spaces": true,
+  "word_wrap": false
+}
