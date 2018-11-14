@@ -34,24 +34,48 @@ cd ~/.solarized
 
 Copy `.zshrc`.
 
-TODO
-
 ## Sublime
 
-TODO
+Download and install [Sublime Text 3](https://www.sublimetext.com/). Then, `Ctrl + Shift + P` to install following packages:
 
-- packages
-- preferences (+ package preferences)
-- bindings
+- A File Icon
+- Better Coffescript
+- Boxy Theme
+- BracketHighlighter
+- Colorsublime
+- Console Wrap
+- EditorConfig
+- ERB Autocomplete (?)
+- Git
+- GitGutter
+- Package Control
+- RuboCop
+- SublimeLinter
+- Theme - Monokai Pro
+- Pretty JSON
+
+Press `Ctrl + Shift + P`, type 'Colorsublime: Install Theme', then type 'Monokai' and press `Enter`.
+
+Copy and paste User preferences and Key bindings.
 
 ## Ruby
 
-TODO
+Prerequisites:
 
-- rvm
-- rubocop
-- rspec
-- irb
+```
+sudo apt install gnupg2
+gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+cd /tmp
+curl -sSL https://get.rvm.io -o rvm.sh
+cat /tmp/rvm.sh | bash -s stable --rails
+source /home/$(whoami)/.rvm/scripts/rvm
+gem install rspec
+gem install rubocop
+gem install fuubar
+
+```
+
+TODO: rvm, irb
 
 ## Vim
 
